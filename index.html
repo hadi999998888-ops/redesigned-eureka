@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gaming Hub & Loadout Dashboard</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header class="navbar">
+        <div class="logo">
+            <img src="assets/logo.svg" alt="Logo" width="32" height="32">
+            <span>GAMING HUB</span>
+        </div>
+        <nav>
+            <a href="#dashboard" class="active">Главная</a>
+            <a href="#loadout">Арсенал</a>
+            <a href="#stats">Статистика</a>
+        </nav>
+    </header>
+
+    <main class="container">
+        <section class="hero">
+            <h1>Добро пожаловать в игровой портал</h1>
+            <p>Ваша персональная панель управления статистикой, оружием и тактиками.</p>
+        </section>
+
+        <section id="dashboard" class="grid">
+            <div class="card">
+                <h3>K/D Статистика</h3>
+                <div class="stat-value" id="kd-ratio">1.85</div>
+                <p>Побед: 68%</p>
+            </div>
+            <div class="card">
+                <h3>Точность стрельбы</h3>
+                <div class="stat-value">42.4%</div>
+                <p>В голову (HS): 31.8%</p>
+            </div>
+            <div class="card">
+                <h3>Ранг / Уровень</h3>
+                <div class="stat-value rank">ЭЛИТА</div>
+                <p>Сезон 4</p>
+            </div>
+        </section>
+
+        <section id="loadout" class="section">
+            <h2>Избранное оружие</h2>
+            <div class="weapons-grid">
+                <div class="weapon-card">
+                    <h4>AKR / Assault</h4>
+                    <p class="desc">Высокий урон, контроль отдачи</p>
+                </div>
+                <div class="weapon-card">
+                    <h4>M4 / Tactical</h4>
+                    <p class="desc">Точность на дальних дистанциях</p>
+                </div>
+                <div class="weapon-card">
+                    <h4>AWM / Sniper</h4>
+                    <p class="desc">Один выстрел — один фраг</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Gaming Hub. Все права защищены.</p>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
